@@ -1,10 +1,7 @@
+$().on("click", function () {
 
-$().on("click", function(){
-
-    $('html, body').animate({
+  $('html, body').animate({
     scrollTop: $("#Bio").offset().top
-}, 1000);
-    
-    
+  }, 1000);
 });
 
